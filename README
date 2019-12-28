@@ -1,0 +1,6 @@
+Just only compile a single cpp file
+g++ -o ts ./src/shell/ts.cc
+
+Executing command below to build project with gn and ninja
+./build/gn gen out
+ninja -C out
