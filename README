@@ -1,6 +1,8 @@
 Just only compile a single cpp file
-g++ -o ts ./src/shell/ts.cc
+g++ -g -o ts ./src/shell/trsc.cc
 
 Executing command below to build project with gn and ninja
 ./build/gn gen out
 ninja -C out
+
+All of the above have been configured in .vscode/tasks.json

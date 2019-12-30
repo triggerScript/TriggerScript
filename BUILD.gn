@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-executable("ts") {
+executable("trsc") {
   sources = [
-    "//src/shell/ts.cc",
+    "//src/shell/trsc.cc"
   ]
 }
