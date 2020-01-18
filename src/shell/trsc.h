@@ -1,11 +1,13 @@
 #include <string>
 
+using namespace std;
+
 namespace trsc
 {
 class Script
 {
 public:
-    static char Compile(char a);
+    static string Compile(string a);
     static int buildAst();
     static char generateByteCode();
 };

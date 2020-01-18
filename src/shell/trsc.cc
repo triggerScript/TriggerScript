@@ -1,10 +1,12 @@
 #include "trsc.h"
 
-char trsc::Script::Compile(char a)
+using namespace std;
+
+string trsc::Script::Compile(string programStr)
 {
     buildAst();
     generateByteCode();
-    return a;
+    return programStr;
 }
 
 int trsc::Script::buildAst()

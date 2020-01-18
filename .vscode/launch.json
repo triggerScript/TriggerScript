@@ -9,7 +9,9 @@
             "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/out/trsc",
-            "args": [],
+            "args": [
+                "./samples/hello-world.trs"
+            ],
             "stopOnEntry": true
         },
         {
